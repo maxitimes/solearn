@@ -40,7 +40,7 @@ export const GalleryView: FC = ({}) => {
         <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div className="flex-none">
             <button className="btn btn-square btn-ghost">
-              <span className="text-4xl">🏞</span>
+              <span className="text-4xl">🦦</span>
             </button>
           </div>
           <div className="flex-1 px-2 mx-2">
@@ -48,11 +48,11 @@ export const GalleryView: FC = ({}) => {
               <ul className="text-xl">
                 <li>
                   <Link href="/">
-                    <a>Templates</a>
+                    <a>Solearn</a>
                   </Link>
                 </li>
                 <li>
-                  <span className="opacity-40">NFT Gallery</span>
+                  <span className="opacity-40">Rewards Gallery</span>
                 </li>
               </ul>
             </div>
@@ -67,28 +67,17 @@ export const GalleryView: FC = ({}) => {
             <div className="text-center hero-content w-full">
               <div className="w-full">
                 <h1 className="mb-5 text-5xl">
-                  NFT Gallery on Solana <SolanaLogo />
+                  Solearn Rewards
                 </h1>
 
                 <div className="w-full min-w-full">
                   <p className="mb-5">
-                    Here is very basic example of NFT Gallery. It parses
-                    mainnet. <br />
-                    And uses{" "}
-                    <a
-                      href="https://www.npmjs.com/package/@nfteyez/sol-rayz-react"
-                      target="_blank"
-                      className="link font-bold"
-                      rel="noreferrer"
-                    >
-                      @nfteyez/sol-rayz-react
-                    </a>{" "}
-                    package to fetch NFTs for specific wallet.
+                    Here are all the rewards you've collected so far
                   </p>
                   <div>
                     <div className="form-control mt-8">
                       <label className="input-group input-group-vertical input-group-lg">
-                        <span>Search</span>
+                      
                         <div className="flex space-x-2">
                           <input
                             type="text"
