@@ -17,11 +17,11 @@ export const HomeView: FC = ({}) => {
         <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div className="flex-none">
             <button className="btn btn-square btn-ghost">
-              <span className="text-4xl">🦤</span>
+              <span className="text-4xl">🦦</span>
             </button>
           </div>
           <div className="flex-1 px-2 mx-2">
-            <span className="text-lg font-bold">Caw Caw</span>
+            <span className="text-lg font-bold">Solearn</span>
           </div>
           <div className="flex-none">
             <WalletMultiButton className="btn btn-ghost" />
@@ -33,15 +33,14 @@ export const HomeView: FC = ({}) => {
             <div className="text-center hero-content">
               <div className="max-w-lg">
                 <h1 className="mb-5 text-5xl font-bold">
-                  Hello Solana <SolanaLogo /> World!
+                  Quizzes to Earn NFTs
                 </h1>
                 <p className="mb-5">
-                  This scaffold includes awesome tools for rapid development and
-                  deploy dapps to Solana: Next.JS, TypeScript, TailwindCSS,
-                  Daisy UI.
+                  Grab your NFT answering while learning 
+                  about Solana ecosystem and projects.
                 </p>
                 <p className="mb-5">
-                  Sollana wallet adapter is connected and ready to use.
+                  Built with <SolanaLogo />
                 </p>
                 <p>
                   {publicKey ? <>Your address: {publicKey.toBase58()}</> : null}
@@ -50,6 +49,7 @@ export const HomeView: FC = ({}) => {
             </div>
           </div>
 
+          {/*
           <div className="max-w-4xl mx-auto">
             <h1 className="mb-5 pb-8 text-5xl">Templates:</h1>
             <ul className="text-left leading-10">
@@ -60,13 +60,13 @@ export const HomeView: FC = ({}) => {
                   </a>
                 </Link>
               </li>
-              {/* <li className="mb-5">
+              <li className="mb-5">
                 <Link href="/mint">
                   <a className="text-4xl font-bold hover:underline">
                     🍬 -- Candy Machine Mint UI
                   </a>
                 </Link>
-              </li> */}
+              </li>
               <li>
                 <Link href="/tweeter">
                   <a className="mb-5 text-4xl font-bold hover:underline">
@@ -76,6 +76,7 @@ export const HomeView: FC = ({}) => {
               </li>
             </ul>
           </div>
+          */}
         </div>
       </div>
     </div>
