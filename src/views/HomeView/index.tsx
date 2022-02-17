@@ -36,8 +36,7 @@ export const HomeView: FC = ({}) => {
                   Quizzes to Earn NFTs
                 </h1>
                 <p className="mb-5">
-                  Grab your NFT answering while learning 
-                  about Solana ecosystem and projects.
+                  Discover Solana's ecosystem while grabbing your Free NFT's.
                 </p>
                 <p className="mb-5">
                   Built with <SolanaLogo />
